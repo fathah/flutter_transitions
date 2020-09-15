@@ -1,14 +1,29 @@
-# fluttertransitions
+# flutter_transitions
 
 Simple Route Transitions
 
-## Getting Started
+### Animation Types
+1. FlutterSizeRoute
+<img src="https://media4.giphy.com/media/MCcxVWFnv3gz3yKGis/giphy.gif" alt="drawing" width="230px" hspace="5"/>  
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+2. FlutterFadeRoute
+<img src="https://media3.giphy.com/media/MaUBahbmTy3AMGu5qE/giphy.gif" alt="drawing" width="230px" hspace="5"/>  
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+3. FlutterScaleRoute
+<img src="https://media0.giphy.com/media/KAkE1r6IGqNTc0fBZ8/giphy.gif" alt="drawing" width="230px" hspace="5"/>  
+
+
+## FlutterSizeRoute
+```
+Navigator.push(context, FlutterSizeRoute(page: MyPage()));
+```
+
+## FlutterFadeRoute
+```
+Navigator.push(context, FlutterFadeRoute(page: MyPage()));
+```
+
+## FlutterScaleRoute
+```
+Navigator.push(context, FlutterScaleRoute(page: MyPage()));
+```

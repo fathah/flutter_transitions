@@ -1,7 +1,7 @@
 name: flutter_transitions
 description: Simple Route Transitions
 version: 0.0.1
-homepage:
+homepage: https://github.com/fathah/flutter_transitions
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
